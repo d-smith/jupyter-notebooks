@@ -1,0 +1,9 @@
+If behind a proxy...
+
+From Graphlab Create Launcher, select terminal. In the terminal window, export 
+HTTP_PROXY and HTTPS_PROXY environment variables, then launch the notebook via jupyter notebook.
+
+To verity env settings, use %env. To verify connectivity, do:
+
+import requests
+requests.get("http://google.com")
